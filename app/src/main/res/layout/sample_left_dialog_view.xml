@@ -1,0 +1,22 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:layout_gravity="start|top"
+    >
+
+    <RelativeLayout
+        android:id="@+id/cl"
+        android:layout_width="500dp"
+        android:layout_height="700dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="close" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
